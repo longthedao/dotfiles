@@ -1,3 +1,10 @@
-for f in split(glob('~/.config/nvim/settings/*.vim'), '\n')
-	exe 'source' f
-endfor
+source ~/.config/nvim/settings/plugins.vim
+source ~/.config/nvim/settings/configs.vim
+source ~/.config/nvim/plugin-settings/defx.rc.vim
+source ~/.config/nvim/plugin-settings/fzf.rc.vim
+source ~/.config/nvim/plugin-settings/coc.rc.vim
+source ~/.config/nvim/plugin-settings/vim_jsx_pretty.rc.vim
+source ~/.config/nvim/plugin-settings/yats.rc.vim
+source ~/.config/nvim/plugin-settings/vim_prettier.rc.vim
+source ~/.config/nvim/plugin-settings/airline.rc.vim
+source ~/.config/nvim/plugin-settings/closetag.rc.vim
